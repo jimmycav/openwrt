@@ -22,6 +22,7 @@ mvebu_setup_interfaces()
 		;;
 	fortinet,fg-30e|\
 	fortinet,fwf-30e|\
+	fortinet,fwf-30e-3g4g|\
 	linksys,wrt1200ac|\
 	linksys,wrt1900ac-v1|\
 	linksys,wrt1900ac-v2|\
