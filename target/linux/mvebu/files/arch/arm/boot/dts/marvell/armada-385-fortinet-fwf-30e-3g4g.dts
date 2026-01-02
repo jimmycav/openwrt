@@ -1,0 +1,30 @@
+// SPDX-License-Identifier: GPL-2.0-or-later OR MIT
+
+#include "armada-385-fortinet-fg-3xe.dtsi"
+
+
+/ {
+        model = "Fortinet FortiWiFi 30E 3G4G";
+        compatible = "fortinet,fwf-30e-3g4g", "marvell,armada385", "marvell,armada380";
+};
+
+&pciec {
+        status = "okay";
+};
+
+/* Enable all PCIe ports to test which one has WiFi */
+&pcie1 {
+        status = "okay";
+};
+
+&pcie2 {
+        status = "okay";
+};
+
+&pcie3 {
+        status = "okay";
+};
+
+&pcie4 {
+        status = "okay";
+};

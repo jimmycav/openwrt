@@ -149,9 +149,9 @@ define Device/fortinet_fwf-30e-3g4g
   $(Device/fortinet)
   DEVICE_MODEL := FortiWiFi 30E-3G4G
   DEVICE_VARIANT := 3G4G
-  DEVICE_DTS := armada-385-fortinet-fwf-30e
+  DEVICE_DTS := armada-385-fortinet-fwf-30e-3g4g
   KERNEL_INITRAMFS := kernel-bin | append-dtb | fortigate-header | \
-    gzip-filename FWF303G
+    gzip-filename FW30EI
   DEVICE_PACKAGES += kmod-ath9k wpad-basic-mbedtls \
     kmod-usb-serial kmod-usb-serial-option kmod-usb-net-qmi-wwan uqmi
 endef
